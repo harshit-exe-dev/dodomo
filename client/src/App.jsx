@@ -469,7 +469,7 @@ export default function App() {
                 <select value={cSubject} onChange={(e) => setCSubject(e.target.value)}>
                   {SUBJECTS.map((s) => <option key={s} value={s}>{s}</option>)}
                 </select>
-                <input type="text" placeholder="Unit (e.g. 3)" value={cUnit} onChange={(e) => setCUnit(e.target.value)} maxLength={24} />
+                <input className="unit-input" type="text" placeholder="Unit (e.g. 3)" value={cUnit} onChange={(e) => setCUnit(e.target.value)} maxLength={24} />
                 <button className="btn-post" disabled={posting} onClick={handlePostDoubt}>{posting ? "Posting…" : "Post doubt"}</button>
               </div>
             </div>
