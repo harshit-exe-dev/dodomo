@@ -112,7 +112,7 @@
     background:var(--field);border:1px solid var(--line2);border-radius:10px;color:var(--ink);
     padding:9px 11px;font-size:13.5px;outline:none;
   }
-  .composer input[type=text]{width:110px}
+  .composer input.unit-input{width:110px}
   .btn-post{
     margin-left:auto;background:var(--accent);border:none;color:#2A1218;font-weight:700;
     font-size:14px;padding:10px 22px;border-radius:999px;
